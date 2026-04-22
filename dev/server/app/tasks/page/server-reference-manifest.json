@@ -1,0 +1,50 @@
+{
+  "node": {
+    "406f7a5b7058b19c834d249c22afabd7172adae8dd": {
+      "workers": {
+        "app/tasks/page": {
+          "moduleId": "[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/.next-internal/server/app/tasks/page/actions.js { ACTIONS_MODULE0 => \"[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/task-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteTask",
+          "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/task-actions.ts"
+        }
+      },
+      "layer": {
+        "app/tasks/page": "action-browser"
+      },
+      "exportedName": "deleteTask",
+      "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/task-actions.ts"
+    },
+    "6054da5d875114f930b14e60c7a2f8b84c867f30e7": {
+      "workers": {
+        "app/tasks/page": {
+          "moduleId": "[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/.next-internal/server/app/tasks/page/actions.js { ACTIONS_MODULE0 => \"[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/task-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateTaskContent",
+          "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/task-actions.ts"
+        }
+      },
+      "layer": {
+        "app/tasks/page": "action-browser"
+      },
+      "exportedName": "updateTaskContent",
+      "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/task-actions.ts"
+    },
+    "400237aa46f87372715680e8f8a8179b4c7078c2de": {
+      "workers": {
+        "app/tasks/page": {
+          "moduleId": "[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/.next-internal/server/app/tasks/page/actions.js { ACTIONS_MODULE0 => \"[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/task-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createNewTask",
+          "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/task-actions.ts"
+        }
+      },
+      "layer": {
+        "app/tasks/page": "action-browser"
+      },
+      "exportedName": "createNewTask",
+      "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/task-actions.ts"
+    }
+  },
+  "edge": {}
+}

@@ -1,0 +1,126 @@
+{
+  "node": {
+    "400beba0a9bcf6de5c1c275f8f2739c0093e738032": {
+      "workers": {
+        "app/auth/signup/page": {
+          "moduleId": "[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/.next-internal/server/app/auth/signup/page/actions.js { ACTIONS_MODULE0 => \"[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/auth/signup/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "register",
+          "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/auth/signup/actions.ts"
+        }
+      },
+      "layer": {
+        "app/auth/signup/page": "action-browser"
+      },
+      "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/auth/signup/actions.ts",
+      "exportedName": "register"
+    },
+    "406f7a5b7058b19c834d249c22afabd7172adae8dd": {
+      "workers": {
+        "app/tasks/page": {
+          "moduleId": "[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/.next-internal/server/app/tasks/page/actions.js { ACTIONS_MODULE0 => \"[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/task-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteTask",
+          "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/task-actions.ts"
+        }
+      },
+      "layer": {
+        "app/tasks/page": "action-browser"
+      },
+      "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/task-actions.ts",
+      "exportedName": "deleteTask"
+    },
+    "6054da5d875114f930b14e60c7a2f8b84c867f30e7": {
+      "workers": {
+        "app/tasks/page": {
+          "moduleId": "[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/.next-internal/server/app/tasks/page/actions.js { ACTIONS_MODULE0 => \"[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/task-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateTaskContent",
+          "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/task-actions.ts"
+        }
+      },
+      "layer": {
+        "app/tasks/page": "action-browser"
+      },
+      "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/task-actions.ts",
+      "exportedName": "updateTaskContent"
+    },
+    "400237aa46f87372715680e8f8a8179b4c7078c2de": {
+      "workers": {
+        "app/tasks/page": {
+          "moduleId": "[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/.next-internal/server/app/tasks/page/actions.js { ACTIONS_MODULE0 => \"[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/task-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createNewTask",
+          "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/task-actions.ts"
+        }
+      },
+      "layer": {
+        "app/tasks/page": "action-browser"
+      },
+      "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/task-actions.ts",
+      "exportedName": "createNewTask"
+    },
+    "40adb20e3b66c23c90f87c15603907433a32d8fbdb": {
+      "workers": {
+        "app/calendar/page": {
+          "moduleId": "[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/.next-internal/server/app/calendar/page/actions.js { ACTIONS_MODULE0 => \"[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/calendar-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createCalendarItem",
+          "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/calendar-actions.ts"
+        }
+      },
+      "layer": {
+        "app/calendar/page": "action-browser"
+      },
+      "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/calendar-actions.ts",
+      "exportedName": "createCalendarItem"
+    },
+    "40fef3fb95ed834f49861bb278f71932e097b47525": {
+      "workers": {
+        "app/calendar/page": {
+          "moduleId": "[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/.next-internal/server/app/calendar/page/actions.js { ACTIONS_MODULE0 => \"[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/calendar-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteCalendarItem",
+          "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/calendar-actions.ts"
+        }
+      },
+      "layer": {
+        "app/calendar/page": "action-browser"
+      },
+      "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/calendar-actions.ts",
+      "exportedName": "deleteCalendarItem"
+    },
+    "4015c7d90ce2eb3a7dfd5e6ff5414156e86662400e": {
+      "workers": {
+        "app/profile/page": {
+          "moduleId": "[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/.next-internal/server/app/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/profile/updateImage.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/profile/updateInfo.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateProfileImage",
+          "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/profile/updateImage.ts"
+        }
+      },
+      "layer": {
+        "app/profile/page": "action-browser"
+      },
+      "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/profile/updateImage.ts",
+      "exportedName": "updateProfileImage"
+    },
+    "40b45ea8f0f8583e33f3020537b49b172e1a79b9d3": {
+      "workers": {
+        "app/profile/page": {
+          "moduleId": "[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/.next-internal/server/app/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/profile/updateImage.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/profile/updateInfo.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateProfileInfo",
+          "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/profile/updateInfo.ts"
+        }
+      },
+      "layer": {
+        "app/profile/page": "action-browser"
+      },
+      "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/profile/updateInfo.ts",
+      "exportedName": "updateProfileInfo"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "rwsR+i3uC3I/HRnlGodJ96K2W1RVQFBBpjzfXnNknb0="
+}

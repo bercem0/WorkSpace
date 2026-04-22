@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/olufsenbem/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/api/scrum-task/route.ts"],"sourcesContent":["import { prisma } from \"@/src/lib/prisma\";\nimport { NextResponse } from \"next/server\";\n\nexport async function GET() {\n  const tasks = await prisma.scrumTask.findMany();\n  return NextResponse.json(tasks);\n}\n\nexport async function POST(req: Request) {\n  const body = await req.json();\n\n  const task = await prisma.scrumTask.create({\n    data: {\n      title: body.title,\n      status: body.status,\n      boardId: body.boardId,\n      userId: body.userId,\n    },\n  });\n\n  return NextResponse.json(task);\n}"],"names":[],"mappings":";;;;;;AAAA;AACA;;;AAEO,eAAe;IACpB,MAAM,QAAQ,MAAM,2OAAM,CAAC,SAAS,CAAC,QAAQ;IAC7C,OAAO,2PAAY,CAAC,IAAI,CAAC;AAC3B;AAEO,eAAe,KAAK,GAAY;IACrC,MAAM,OAAO,MAAM,IAAI,IAAI;IAE3B,MAAM,OAAO,MAAM,2OAAM,CAAC,SAAS,CAAC,MAAM,CAAC;QACzC,MAAM;YACJ,OAAO,KAAK,KAAK;YACjB,QAAQ,KAAK,MAAM;YACnB,SAAS,KAAK,OAAO;YACrB,QAAQ,KAAK,MAAM;QACrB;IACF;IAEA,OAAO,2PAAY,CAAC,IAAI,CAAC;AAC3B"}}]
+}

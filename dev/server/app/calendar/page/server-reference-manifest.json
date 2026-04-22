@@ -1,0 +1,35 @@
+{
+  "node": {
+    "40adb20e3b66c23c90f87c15603907433a32d8fbdb": {
+      "workers": {
+        "app/calendar/page": {
+          "moduleId": "[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/.next-internal/server/app/calendar/page/actions.js { ACTIONS_MODULE0 => \"[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/calendar-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createCalendarItem",
+          "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/calendar-actions.ts"
+        }
+      },
+      "layer": {
+        "app/calendar/page": "action-browser"
+      },
+      "exportedName": "createCalendarItem",
+      "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/calendar-actions.ts"
+    },
+    "40fef3fb95ed834f49861bb278f71932e097b47525": {
+      "workers": {
+        "app/calendar/page": {
+          "moduleId": "[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/.next-internal/server/app/calendar/page/actions.js { ACTIONS_MODULE0 => \"[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/calendar-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteCalendarItem",
+          "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/calendar-actions.ts"
+        }
+      },
+      "layer": {
+        "app/calendar/page": "action-browser"
+      },
+      "exportedName": "deleteCalendarItem",
+      "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/actions/calendar-actions.ts"
+    }
+  },
+  "edge": {}
+}

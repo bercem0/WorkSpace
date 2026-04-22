@@ -1,0 +1,35 @@
+{
+  "node": {
+    "4015c7d90ce2eb3a7dfd5e6ff5414156e86662400e": {
+      "workers": {
+        "app/profile/page": {
+          "moduleId": "[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/.next-internal/server/app/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/profile/updateImage.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/profile/updateInfo.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateProfileImage",
+          "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/profile/updateImage.ts"
+        }
+      },
+      "layer": {
+        "app/profile/page": "action-browser"
+      },
+      "exportedName": "updateProfileImage",
+      "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/profile/updateImage.ts"
+    },
+    "40b45ea8f0f8583e33f3020537b49b172e1a79b9d3": {
+      "workers": {
+        "app/profile/page": {
+          "moduleId": "[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/.next-internal/server/app/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/profile/updateImage.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/profile/updateInfo.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateProfileInfo",
+          "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/profile/updateInfo.ts"
+        }
+      },
+      "layer": {
+        "app/profile/page": "action-browser"
+      },
+      "exportedName": "updateProfileInfo",
+      "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/profile/updateInfo.ts"
+    }
+  },
+  "edge": {}
+}

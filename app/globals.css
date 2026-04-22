@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import "shadcn/tailwind.css";
+
+:root {
+  --background: #070B24; 
+  --foreground: #99f6e4; 
+  --card: #0E153A;
+  --card-foreground: #99f6e4;
+  --border: rgba(45, 212, 191, 0.2); 
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #070B24;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 10px;
+}

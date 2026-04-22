@@ -1,0 +1,12 @@
+var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/scrum-task/route.js")
+R.c("server/chunks/[externals]_node:crypto_d37c97fb._.js")
+R.c("server/chunks/bd6a9_d24-project-p07-show-your-skills-workspace_src_generated_runtime_client_c1f29eb3.js")
+R.c("server/chunks/41795_-your-skills-workspace_src_generated_query_compiler_fast_bg_wasm-base64_c7222173.js")
+R.c("server/chunks/bb94c_sd24-project-p07-show-your-skills-workspace_src_generated_023fc0d3._.js")
+R.c("server/chunks/bb94c_sd24-project-p07-show-your-skills-workspace_src_lib_prisma_ts_32485ae3._.js")
+R.c("server/chunks/bb94c_sd24-project-p07-show-your-skills-workspace_app_api_scrum-task_route_ts_d3b41791._.js")
+R.c("server/chunks/[externals]__78a360f5._.js")
+R.c("server/chunks/9dd8c_86df0412._.js")
+R.c("server/chunks/dc8a6__next-internal_server_app_api_scrum-task_route_actions_adf951b6.js")
+R.m("[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/api/scrum-task/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)")
+module.exports=R.m("[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/api/scrum-task/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)").exports

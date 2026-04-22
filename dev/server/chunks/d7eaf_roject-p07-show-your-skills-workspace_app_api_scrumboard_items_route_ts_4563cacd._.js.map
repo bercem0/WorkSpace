@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/olufsenbem/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/api/scrumboard/items/route.ts"],"sourcesContent":["import { prisma } from \"@/src/lib/prisma\";\nimport { getServerSession } from \"next-auth\";\n\nexport async function GET() {\n  const session = await getServerSession();\n  if (!session?.user?.id) return Response.json([], { status: 401 });\n\n  const items = await prisma.scrumItem.findMany({\n    where: { userId: session.user.id },\n    orderBy: { createdAt: \"asc\" },\n  });\n\n  return Response.json(items);\n}"],"names":[],"mappings":";;;;AAAA;AACA;;;AAEO,eAAe;IACpB,MAAM,UAAU,MAAM,IAAA,sQAAgB;IACtC,IAAI,CAAC,SAAS,MAAM,IAAI,OAAO,SAAS,IAAI,CAAC,EAAE,EAAE;QAAE,QAAQ;IAAI;IAE/D,MAAM,QAAQ,MAAM,2OAAM,CAAC,SAAS,CAAC,QAAQ,CAAC;QAC5C,OAAO;YAAE,QAAQ,QAAQ,IAAI,CAAC,EAAE;QAAC;QACjC,SAAS;YAAE,WAAW;QAAM;IAC9B;IAEA,OAAO,SAAS,IAAI,CAAC;AACvB"}}]
+}

@@ -1,0 +1,20 @@
+{
+  "node": {
+    "400beba0a9bcf6de5c1c275f8f2739c0093e738032": {
+      "workers": {
+        "app/auth/signup/page": {
+          "moduleId": "[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/.next-internal/server/app/auth/signup/page/actions.js { ACTIONS_MODULE0 => \"[project]/github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/auth/signup/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "register",
+          "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/auth/signup/actions.ts"
+        }
+      },
+      "layer": {
+        "app/auth/signup/page": "action-browser"
+      },
+      "exportedName": "register",
+      "filename": "github-classroom/ROCMondriaanTIN/sd24-project-p07-show-your-skills-workspace/app/auth/signup/actions.ts"
+    }
+  },
+  "edge": {}
+}

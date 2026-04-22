@@ -1,0 +1,105 @@
+// Datasource: hier definieer je de database provider
+datasource db {
+  provider = "mysql" // Gebruik MySQL
+}
+
+// Generator: hier wordt de Prisma Client gegenereerd
+generator client {
+  provider = "prisma-client-js"
+  // output   = "../src/generated" // Output folder voor de gegenereerde client
+}
+
+// Enumeraties voor vaste keuzes
+enum Role {
+  USER   // Gewone gebruiker
+  ADMIN  // Administrator
+}
+
+enum TaskStatus {
+  TODO        // Te doen
+  IN_PROGRESS // Bezig
+  DONE        // Klaar
+}
+
+enum Priority {
+  LOW    // Laag
+  MEDIUM // Gemiddeld
+  HIGH   // Hoog
+}
+
+// =====================
+// User model
+// =====================
+model User {
+  id        String    @id @default(uuid()) // Unieke ID, automatisch gegenereerd
+  name      String?   // Optionele naam
+  email     String    @unique // Uniek e-mailadres
+  password  String    // Wachtwoord
+  role      Role      @default(USER) // Rol van de gebruiker
+  gender    String?   // Optioneel geslacht
+  image     String?   @db.Text // Optionele profielfoto als tekst/URL
+  createdAt DateTime  @default(now()) // Datum van aanmaken
+
+  // Relaties
+  tasks      Task[]       // Taken van de gebruiker
+  calenders  Calender[]   // Agenda items van de gebruiker
+  scrumItems ScrumItem[]  // Scrum board items van de gebruiker
+}
+
+// =====================
+// Task model
+// =====================
+model Task {
+  id          String     @id @default(uuid()) // Unieke ID
+  userId      String     // Verwijzing naar eigenaar
+  title       String     // Titel van de taak
+  description String?    // Optionele beschrijving
+  status      TaskStatus @default(TODO) // Status van de taak
+  priority    Priority   @default(MEDIUM) // Prioriteit
+  deadline    DateTime?  // Optionele deadline
+  createdAt   DateTime   @default(now()) // Datum van aanmaken
+
+  user        User       @relation(fields: [userId], references: [id]) 
+  // Relatie naar gebruiker
+}
+
+// =====================
+// Calender model
+// =====================
+model Calender {
+  id            String   @id @default(uuid()) // Unieke ID
+  userId        String   // Verwijzing naar eigenaar
+  title         String   // Titel van agenda-item
+  description   String?  // Optionele beschrijving
+  startDatetime DateTime // Starttijd
+  endDatetime   DateTime // Eindtijd
+
+  user          User     @relation(fields: [userId], references: [id])
+}
+
+// =====================
+// Contact model
+// =====================
+model Contact {
+  id        String   @id @default(uuid()) // Unieke ID
+  name      String   // Naam van contactpersoon
+  email     String   // E-mailadres van contactpersoon
+  message   String   // Bericht
+  createdAt DateTime @default(now()) // Datum van aanmaken
+}
+
+// =====================
+// ScrumItem model
+// =====================
+model ScrumItem {
+  id        String   @id @default(uuid()) // Unieke ID
+  userId    String   // Verwijzing naar eigenaar
+  title     String   @db.Text // Titel van het scrum-item
+  columnId  String   // Kolom waarin het item staat (backlog, todo, progress, done)
+  sprint    String   @default("Sprint 1") // Sprint waartoe het item behoort
+  createdAt DateTime @default(now()) // Datum van aanmaken
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  // Relatie naar gebruiker met cascade delete (verwijdert ook scrumItems als user weg is)
+
+  @@index([userId]) // Index voor snellere query op userId
+}
