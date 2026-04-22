@@ -1,7 +1,7 @@
 // Importeer de MariaDB adapter en de Prisma Client
 import { PrismaMariaDb } from "@prisma/adapter-mariadb";
-import { PrismaClient } from "../generated"; // Gemaakt door Prisma generator
-
+// import { PrismaClient } from "../generated"; // Gemaakt door Prisma generator
+import { PrismaClient } from "@prisma/client";
 // Maak een globale variabele aan voor Prisma om meerdere instanties in dev te voorkomen
 const globalForPrisma = globalThis as unknown as {
   prisma: PrismaClient | undefined;
