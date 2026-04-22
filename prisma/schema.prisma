@@ -1,6 +1,7 @@
 // Datasource: hier definieer je de database provider
 datasource db {
   provider = "mysql" // Gebruik MySQL
+  url      = env("DATABASE_URL") // Database URL uit .env bestand
 }
 
 // Generator: hier wordt de Prisma Client gegenereerd
