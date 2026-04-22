@@ -7,6 +7,7 @@ const globalForPrisma = globalThis as unknown as {
   prisma: PrismaClient | undefined;
 };
 
+
 // Configuratie van de MariaDB adapter
 const adapter = new PrismaMariaDb({
   host: "localhost",     // database host
